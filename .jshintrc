@@ -23,6 +23,7 @@
   "eqnull": true,
   "globals": {
     "angular": false,
-    "FB": false
+    "FB": false,
+    "_": false
   }
 }

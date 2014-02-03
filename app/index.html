@@ -6,8 +6,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
+    <title>Beybin Esen ile İş Arayışı</title>
+    <meta name="description" content="Beybin esen ile iş arayışı">
+    <meta name="author" content="Ilker Guller">
+    <meta name="keyword" content="job, search, beybin, ilker, frontend, backend, freelance, iş">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css styles/vendor.css -->
@@ -27,8 +29,9 @@
     <div class="container">
       <div class="header">
         <ul class="nav nav-pills pull-right">
-          <li><a href="#">İletişim</a></li>
-          <li><a href="#">Kodlar</a></li>
+          <li><a href="#/">Ana Sayfa</a></li>
+          <li><a href="#/iletisim">İletişim</a></li>
+          <li><a href="https://github.com/Sly777/BeybinJobSearch" target="_blank">Kodlar</a></li>
         </ul>
         <h3 class="text-muted">Beybin Esen ile İş Arayışı</h3>
       </div>
@@ -80,6 +83,7 @@
     <script src="bower_components/angular-cookies/angular-cookies.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/lodash/dist/lodash.compat.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -87,7 +91,10 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/ilkasama.js"></script>
         <script src="scripts/controllers/hosgeldin.js"></script>
-        <script src="scripts/services/checkIsFriend.js"></script>
+        <script src="scripts/services/facebookSvc.js"></script>
+        <script src="scripts/controllers/ikinciasama.js"></script>
+        <script src="scripts/controllers/islistesi.js"></script>
+        <script src="scripts/controllers/iletisim.js"></script>
         <!-- endbuild -->
 </body>
 </html>

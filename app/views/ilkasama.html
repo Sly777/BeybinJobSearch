@@ -7,6 +7,14 @@
 
   <p class="lead">Önce facebook ile login olman gerekiyor.</p>
 
-  <p><a class="btn btn-lg btn-success" ng-click="checkLogin()" role="button">Login Ol</a></p>
+  <p ng-show="loginStatus == 0"><a class="btn btn-lg btn-success" ng-click="checkLogin()" role="button">Login Ol</a></p>
 
+    <p ng-show="loginStatus == 1">
+        Süper!<br><br>
+        <a class="btn btn-lg btn-success" href="#/ikinciAsama" role="button">İkinci aşamaya geç</a>
+    </p>
+
+    <p ng-show="loginStatus == 2">
+        Ama login olmayı kabul etmezsen sistem çalışmaz ki.
+    </p>
 </div>

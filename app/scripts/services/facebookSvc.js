@@ -2,6 +2,9 @@
 
 angular.module('facebookHrApp').service('FacebookSvc', function Checkisfriend($q, $rootScope) {
   return {
+    getYourData: function() {
+      return this.fbCall('/me');
+    },
     isYourFriend: function(friendId) {
       return this.fbCall('/me/friends/' + friendId);
     },

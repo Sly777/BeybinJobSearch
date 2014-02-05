@@ -34,6 +34,8 @@ angular.module('facebookHrApp').controller('IslistesiCtrl', function ($scope, Fa
           (item.message.indexOf('3d modelleme') != -1) ||
           (item.message.indexOf('ajansa arıyorum') != -1) ||
           (item.message.indexOf('iş arıyor') != -1) ||
+          (item.message.indexOf('Concept Artis') != -1) ||
+          (item.message.indexOf('sr. mt') != -1) ||
           (item.message.indexOf('ajans') != -1 && item.message.indexOf('lazım') != -1);
       })
     );
